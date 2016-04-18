@@ -8,5 +8,6 @@
     <string name="si_sensor">Hay sensor de temperatura</string>
     <string name="votar">Votar</string>
     <string name="ayuda">Ayuda</string>
+    <string name="estado_sensor">Sensor temperatura</string>
 
 </resources>
