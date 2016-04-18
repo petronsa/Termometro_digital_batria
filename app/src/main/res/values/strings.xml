@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">Termometro_digital</string>
+    <string name="app_name">Termómetro digital</string>
     <string name="action_settings">Settings</string>
     <string name="grados_centigrados">°C</string>
     <string name="grados_fahrenheit">°F</string>
+    <string name="sensor_ambiente">Sensor temperatura</string>
+    <string name="no_sensor">No hay sensor de temperatura</string>
+    <string name="si_sensor">Hay sensor de temperatura</string>
+    <string name="votar">Votar</string>
+    <string name="ayuda">Ayuda</string>
 
 </resources>

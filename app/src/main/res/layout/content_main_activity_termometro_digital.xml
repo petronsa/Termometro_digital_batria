@@ -13,23 +13,47 @@
     tools:showIn="@layout/activity_main_activity_termometro_digital">
 
 
-    <TextView
-        android:id="@+id/temperatura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="100sp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/conversor_grados"
-        android:textOn="@string/grados_centigrados"
-        android:textOff="@string/grados_fahrenheit"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/temperatura" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/temperatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="80sp"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/temperatura_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="80sp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
 
 
 </RelativeLayout>
