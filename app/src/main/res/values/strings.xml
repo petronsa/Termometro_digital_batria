@@ -9,5 +9,10 @@
     <string name="votar">Votar</string>
     <string name="ayuda">Ayuda</string>
     <string name="estado_sensor">Sensor temperatura</string>
+    <string name="salir">Salir</string>
+    <string name="ok">OK</string>
+    <string name="toast_ayuda">Si el dispositivo tiene sensor de temperatura ambiente nos mostrara
+     la temperatura en grados centígrados y fahrenheit </string>
+    <string name="temperatura">TEMPERATURA</string>
 
 </resources>
