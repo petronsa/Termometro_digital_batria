@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thermomètre numérique</string>
+    <string name="votar">Vote</string>
+    <string name="action_settings">Réglages</string>
+    <string name="ayuda">Aider</string>
+    <string name="estado_sensor">Capteur de température</string>
+    <string name="grados_centigrados">°C</string>
+    <string name="grados_fahrenheit">°F</string>
+    <string name="no_sensor">Aucun capteur de température</string>
+    <string name="ok">OK</string>
+    <string name="salir">Sortie</string>
+    <string name="sensor_ambiente">Capteur de température</string>
+    <string name="si_sensor">Il existe des capteurs de température</string>
+    <string name="temperatura">TEMPERATURE</string>
+    <string name="toast_ayuda">Si l\'appareil nous a capteur de température ambiante indique la température en degrés centigrades et fahrenheit</string>
+</resources>

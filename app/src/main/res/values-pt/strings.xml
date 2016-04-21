@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Termômetro digital</string>
+    <string name="toast_ayuda">Se o dispositivo sensor de temperatura tem ambiente mostra-nos a temperatura em graus centígrados e Fahrenheit</string>
+    <string name="action_settings">configurações</string>
+    <string name="ayuda">Socorro</string>
+    <string name="estado_sensor">Temperatura sensor</string>
+    <string name="sensor_ambiente">Temperatura sensor</string>
+    <string name="grados_centigrados">°C</string>
+    <string name="grados_fahrenheit">°F</string>
+    <string name="ok">OK</string>
+    <string name="no_sensor">Nenhuma sensor de temperatura</string>
+    <string name="salir">Saída</string>
+    <string name="si_sensor">Existem sensor de temperatura</string>
+    <string name="temperatura">TEMPERATURA</string>
+    <string name="votar">Voto</string>
+</resources>
