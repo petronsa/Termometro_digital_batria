@@ -14,4 +14,6 @@
     <string name="si_sensor">Existem sensor de temperatura</string>
     <string name="temperatura">TEMPERATURA</string>
     <string name="votar">Voto</string>
+    <string name="mensaje">Esta aplicação utiliza sensor de temperatura ambiente, se o seu dispositivo não não mostra a temperatura, por favor, não negativamente Player em se for o caso.</string>
+    <string name="tit_men">Informação importante!</string>
 </resources>

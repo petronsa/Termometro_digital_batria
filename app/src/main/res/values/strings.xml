@@ -13,5 +13,8 @@
     <string name="temperatura">TEMPERATURE</string>
     <string name="toast_ayuda">If the device has ambient temperature sensor show us the temperature in degrees centigrade and fahrenheit</string>
     <string name="votar">Vote</string>
+    <string name="mensaje">This application uses room temperature sensor, if your device does not does not show the temperature, please do not adversely Player in if appropriate.</string>
+    <string name="tit_men">Important information!</string>
+
 
 </resources>

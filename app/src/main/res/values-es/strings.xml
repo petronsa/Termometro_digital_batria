@@ -14,4 +14,6 @@
     <string name="ok">OK</string>
     <string name="toast_ayuda">Si el dispositivo tiene sensor de temperatura ambiente nos mostrara la temperatura en grados centígrados y fahrenheit </string>
     <string name="temperatura">TEMPERATURA</string>
+    <string name="mensaje">Esta aplicación utiliza senson de temperatura ambiente, si su dispositivo no lo tiene no mostrara la temperatura, por favor no puntue negativamente si es su caso.</string>
+    <string name="tit_men">Información importante!</string>
 </resources>
