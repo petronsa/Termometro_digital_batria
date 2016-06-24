@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Termômetro digital</string>
-    <string name="toast_ayuda">Se o dispositivo sensor de temperatura tem ambiente mostra-nos a temperatura em graus centígrados e Fahrenheit</string>
-    <string name="action_settings">configurações</string>
+    <string name="toast_ayuda">Se o dispositivo sensor de temperatura tem ambiente apoximada nos mostrar a temperatura, se o sensor de temperatura interna não é usado e apresentam valores mais elevados, se usarmos o dispositivo</string>
+    <string name="action_settings">Configurações</string>
     <string name="ayuda">Socorro</string>
     <string name="estado_sensor">Temperatura sensor</string>
     <string name="sensor_ambiente">Temperatura sensor</string>
@@ -16,4 +16,7 @@
     <string name="votar">Voto</string>
     <string name="mensaje">Esta aplicação utiliza sensor de temperatura ambiente, se o seu dispositivo não não mostra a temperatura, por favor, não negativamente Player em se for o caso.</string>
     <string name="tit_men">Informação importante!</string>
+    <string name="estado_sensor_am">Sensor de temperatura ambiente</string>
+    <string name="no_sensor_ambiente">Nenhuma sensor de temperatura ambiente</string>
+    <string name="si_sensor_ambiente">Há espaço sensor de temperatura</string>
 </resources>

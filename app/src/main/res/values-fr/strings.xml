@@ -14,6 +14,9 @@
     <string name="sensor_ambiente">Capteur de température</string>
     <string name="si_sensor">Il existe des capteurs de température</string>
     <string name="temperatura">TEMPERATURE</string>
-    <string name="toast_ayuda">Si l\'appareil nous a capteur de température ambiante indique la température en degrés centigrades et fahrenheit</string>
+    <string name="toast_ayuda">Se o dispositivo sensor de temperatura tem ambiente apoximada nos mostrar a temperatura, se o sensor de temperatura interna não é usado e apresentam valores mais elevados, se usarmos o dispositivo</string>
     <string name="votar">Vote</string>
+    <string name="estado_sensor_am">Capteur de température ambiante</string>
+    <string name="no_sensor_ambiente">Aucun capteur de température ambiante</string>
+    <string name="si_sensor_ambiente">Il y a capteur de température ambiante</string>
 </resources>

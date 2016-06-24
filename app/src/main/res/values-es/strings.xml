@@ -12,8 +12,11 @@
     <string name="estado_sensor">Sensor temperatura</string>
     <string name="salir">Salir</string>
     <string name="ok">OK</string>
-    <string name="toast_ayuda">Si el dispositivo tiene sensor de temperatura ambiente nos mostrara la temperatura en grados centígrados y fahrenheit </string>
+    <string name="toast_ayuda">Si el dispositivo tiene sensor de temperatura ambiente nos mostrara la temperatura apoximada, si no se usa el sensor de temperatura interno y mostrara valores más elevados si usamos el dispositivo </string>
     <string name="temperatura">TEMPERATURA</string>
     <string name="mensaje">Esta aplicación utiliza senson de temperatura ambiente, si su dispositivo no lo tiene no mostrara la temperatura, por favor no puntue negativamente si es su caso.</string>
     <string name="tit_men">Información importante!</string>
+    <string name="si_sensor_ambiente">Hay sensor de temeperatura ambiente</string>
+    <string name="estado_sensor_am">Sensor temperatura ambiente</string>
+    <string name="no_sensor_ambiente">No hay sensor de temperatura ambiente</string>
 </resources>
