@@ -1,114 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="false"
+    android:weightSum="1">
 
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="company.petron.termometro_digital.MainActivity_termometro_digital"
-    tools:showIn="@layout/activity_main_activity_termometro_digital"
-    android:id="@+id/fondo"
-    android:background="#000000">
-
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fondo1">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
 
-
-    <TextView
+        <TextView
+            android:id="@+id/TEMPERATURE_available"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
-            android:id="@+id/estado_sensor"
             android:layout_gravity="right"
-            android:layout_weight="1"
-        android:textSize="25sp"
-        android:paddingTop="7sp"
-        android:textStyle="bold" />
+            android:paddingTop="10sp"
+            android:textSize="20sp"
+            android:textColor="@color/color_text" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imagen_existe_termometro"
+            android:id="@+id/imagen_temperatura_normal"
             android:layout_gravity="right"
             android:layout_weight="1" />
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
-            android:id="@+id/temperatura1"
-
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_weight="1"
-            android:textSize="40sp"
-            android:paddingTop="7sp"
-            android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal">
-
-            <TextView
-                android:id="@+id/temperatura"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="80sp"
-                android:layout_centerInParent="true"
-                android:gravity="center_vertical|center_horizontal" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_gravity="center_horizontal">
-
-            <TextView
-                android:id="@+id/temperatura_f"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="80sp"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center_vertical" />
-        </LinearLayout>
+            android:text="@string/temperatura"
+            android:id="@+id/tv_Temperatura"
+            android:textSize="40dp" />
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grados_centigrados"
+            android:id="@+id/tvgradosc"
+            android:textColor="@color/color_text"
+            android:paddingRight="2dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvgradosf"
+            android:text="@string/grados_fahrenheit"
+            android:textColor="@color/color_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TEMPERATURE_reading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvgrados1"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/AMBIENT_TEMPERATURE_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:textColor="@color/color_text"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagen_temperatura_ambiente"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperatura"
+            android:id="@+id/tv_Temperatura_amb"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grados_centigrados"
+            android:id="@+id/tvgradosc1"
+            android:textColor="@color/color_text" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grados_fahrenheit"
+            android:id="@+id/tvgradosf2"
+            android:textColor="@color/color_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/AMBIENT_TEMPERATURE_reading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvgrados2"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_weight="0.61" />
+
     <com.startapp.android.publish.banner.Banner
         android:id="@+id/startAppBanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentTop="false"
         android:layout_alignParentRight="false"
-        android:paddingBottom="0dp" />
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:paddingBottom="5dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:clipToPadding="false"
+        android:layout_alignParentBottom="true" />
 
-
-</RelativeLayout>
+</LinearLayout>

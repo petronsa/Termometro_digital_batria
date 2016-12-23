@@ -18,6 +18,7 @@
     <string name="votar">Vote</string>
     <string name="mensaje">This application uses room temperature sensor, if your device does not does not show the temperature, please do not adversely Player in if appropriate.</string>
     <string name="tit_men">Important information!</string>
-
+    <string name="sensor_tem_normal">Sensor Temperatura</string>
+    <string name="sensor_tem_am">Sensor Temperatura ambiente</string>
 
 </resources>
