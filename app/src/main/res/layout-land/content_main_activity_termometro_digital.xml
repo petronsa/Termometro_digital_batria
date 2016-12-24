@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:paddingTop="10sp"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:textColor="@color/color_text" />
 
         <ImageView
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:text="@string/temperatura"
             android:id="@+id/tv_Temperatura"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,13 +85,13 @@
             android:id="@+id/TEMPERATURE_reading"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvgrados1"
-            android:textSize="20sp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -108,7 +108,7 @@
             android:layout_gravity="right"
             android:paddingTop="10dp"
             android:textColor="@color/color_text"
-            android:textSize="20dp" />
+            android:textSize="14sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:text="@string/temperatura"
             android:id="@+id/tv_Temperatura_amb"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -171,27 +171,36 @@
             android:id="@+id/AMBIENT_TEMPERATURE_reading"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp" />
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvgrados2"
-            android:textSize="20dp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
 
-    <com.startapp.android.publish.banner.Banner
-        android:id="@+id/startAppBanner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentTop="false"
-        android:paddingBottom="5dp"
-        tools:layout_centerHorizontal="true"
-        android:layout_centerHorizontal="false"
-        android:layout_gravity="bottom|center_horizontal" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <com.startapp.android.publish.banner.Banner
+            android:id="@+id/startAppBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:clipToPadding="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:accessibilityLiveRegion="none"
+            android:layout_gravity="bottom|center"
+            android:paddingBottom="5dp">
+
+        </com.startapp.android.publish.banner.Banner>
+    </LinearLayout>
 
 
 </LinearLayout>

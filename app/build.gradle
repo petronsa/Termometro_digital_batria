@@ -8,8 +8,8 @@ android {
         applicationId "company.petron.termometro_digital"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 4
-        versionName "4.5"
+        versionCode 5
+        versionName "5.1"
     }
     buildTypes {
         release {
