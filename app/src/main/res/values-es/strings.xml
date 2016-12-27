@@ -19,4 +19,6 @@
     <string name="si_sensor_ambiente">Hay sensor de temeperatura ambiente</string>
     <string name="estado_sensor_am">Sensor temperatura ambiente</string>
     <string name="no_sensor_ambiente">No hay sensor de temperatura ambiente</string>
+    <string name="sensor_tem_am">Sensor temperatura ambiente</string>
+    <string name="sensor_tem_normal">Sensor temperatura</string>
 </resources>

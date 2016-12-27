@@ -19,4 +19,6 @@
     <string name="estado_sensor_am">Room temperature sensor</string>
     <string name="no_sensor_ambiente">No ambient temperature sensor</string>
     <string name="si_sensor_ambiente">There is room temperature sensor</string>
+    <string name="sensor_tem_am">Ambient temperature sensor</string>
+    <string name="sensor_tem_normal">Temperature sensor</string>
 </resources>

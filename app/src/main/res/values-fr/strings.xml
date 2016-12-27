@@ -19,4 +19,6 @@
     <string name="estado_sensor_am">Capteur de température ambiante</string>
     <string name="no_sensor_ambiente">Aucun capteur de température ambiante</string>
     <string name="si_sensor_ambiente">Il y a capteur de température ambiante</string>
+    <string name="sensor_tem_am">Capteur de température ambiante</string>
+    <string name="sensor_tem_normal">Capteur de température</string>
 </resources>
